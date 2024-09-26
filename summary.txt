@@ -1,0 +1,21 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose Python and Django primarily due to my comfortability with the software as well as how quickly it allows for API development due to the built in ORM and sqlite databases provided.
+I think that in order to get the task done in the limited amount of time, getting the core functionality of the API complete within the given time was the most important part and Django
+allowed me to do this.
+
+2. What are the advantages and disadvantages of your solution?
+
+Using Django allows for the solution to be isolated within its own app, which allows for extra features to be added quickly without potentially interfering with this API. The use of a
+fullstack framework like Django also allows for the potential use of frontend features as well. This results in an ease of development while scaling this app. The main disadvantage of
+this is that Django is less performant than other frameworks primarily because of Python's worse performance compared to other languages.
+
+For the API code itself, the use of separate tables for storing transactions and full prices allows for quick retrieval for the balance endpoint, but also results in multiple updates to be
+made in order to keep all the data is correct, which can cause problems when trying to build upon the API.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+My favorite personal project so far has been an NES Emulator I've been developing in Rust. Overall getting to learn Rust for the first time has been challenging but also really interesting.
+This project has also greatly deepened my knowledge of computer architecture as I have to go through the process of implementing each hardware component and communication methods between
+these components, which has both been informative and challenging. The biggest challenge though is being able to deeply understand the NES documentation at a level where I can understand how
+to implement each design decision.
